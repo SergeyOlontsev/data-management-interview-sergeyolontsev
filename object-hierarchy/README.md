@@ -25,6 +25,7 @@ configuration file is below, along with a sample output.
 
 # Sample Configuration File
 
+```
 name: rpthourly
 description: aggregate the data from the logevent stream into summary data
 tasks:
@@ -38,9 +39,11 @@ tasks:
 	from logevent
 	where day=today()
 	  and hour=now()
-	  
+```
+
 # Sample Output (located in rpthourly.py)
 
+```
 import airflow
 from airflow.operators.python_operator import PythonOperator
 description = """
@@ -71,3 +74,4 @@ with airflow.DAG(
 """
         }
     )
+```
