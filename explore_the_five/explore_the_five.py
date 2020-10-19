@@ -281,6 +281,10 @@ def make_classes():
 
     """
 
+    # TODO Define `Task`
+    # TODO Define `ListSum`
+    # TODO Define `ListAverage`
+    
     t1 = Task(datetime.now())
     try:
         t1.run()
