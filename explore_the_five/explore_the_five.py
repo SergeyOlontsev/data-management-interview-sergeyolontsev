@@ -13,9 +13,7 @@ In this bit of work, you will need perform the following steps:
 The code presented here is incomplete. Every TODO entry has steps
 involved that you will determine the best way to implement. You will
 know that you have completed everything when running this script
-completes successfully. When you have completed the exercise, zip up
-the output files and your source code and return it to the email
-supplied along with this test.
+completes successfully. When you have completed the exercise, create pull request.
 
 You may use any libraries you wish. The only restriction on this is
 that Pulsepoint must be able to run your code, so the libraries must
